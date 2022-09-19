@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/line1"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:textColor="#990000"
+            android:textSize="20sp"
+            android:layout_marginRight="15dp"
+            android:text="Printer List"/>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#990000"
+            android:textSize="20sp"
+            android:visibility="gone"
+            android:layout_marginRight="15dp"
+            android:text="Battery :"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtBatteryStatus"
+            android:textColor="#990000"
+            android:textSize="20sp"
+            android:layout_marginRight="15dp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:padding="5dp"
+        android:layout_below="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/pairing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/buttonbt"
+            android:onClick="onShowPairedPrinters"
+            android:text="Connect"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/edittext_printerSeries"
+            android:layout_below="@+id/pairing"
+            android:hint="Please Enter Serial"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </EditText>
+
+<!--
+        <EditText
+            android:id="@+id/edittext_printerSeries"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pairing"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:hint="Please Enter Serial"
+            android:textAllCaps="true" />
+-->
+
+
+        <Button
+            android:id="@+id/bill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edittext_printerSeries"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/buttonbt"
+            android:onClick="onPrintBill"
+            android:text="Print Sticker"
+            android:textColor="#ffffff">
+
+        </Button>
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/logo">
+        </ImageView>
+
+
+
+
+
+
+
+
+
+ <!--   <Button
+        android:id="@+id/bill_fullCutter"
+        android:text="Begin Demo"
+        android:textColor="#ffffff"
+        android:layout_margin="5dp"
+        android:onClick="onHalfCutterBill"
+        android:background="@drawable/buttonbt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bill_Cutter"
+        android:text="Print All"
+        android:layout_margin="5dp"
+        android:onClick="onPrintBill"
+        android:background="@drawable/buttonbt"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/image"
+        android:text="Image"
+        android:layout_margin="5dp"
+        android:onClick="onPrintImage"
+        android:background="@drawable/buttonbt"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />-->
+
+    </RelativeLayout>
+
+</RelativeLayout>

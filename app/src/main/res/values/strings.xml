@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">BluPrints Sticker </string>
+
+    <!--<string-array name="Printer_List">
+        <item id="0">BLUMR2BT</item>
+        <item id="1">BPMR3BT</item>
+        <item id="2">AEM2BT</item>
+        <item id="3">VRIDDHI</item>
+        <item id="4">SPICE MONEY</item>
+        <item id="5">SAMPANN</item>
+        <item id="6">PRAGATI</item>
+        <item id="7">UTKARSH-BT</item>
+        <item id="8">UTKARSH-USB</item>
+    </string-array>-->
+
+    <string-array name="Printer_List">
+        <item id="0">SAMPANN ECO-1100</item>
+        <item id="1">SAMPANN ECO-1500</item>
+        <item id="2">SAMPANN REG-1200</item>
+        <item id="3">SAMPANN REG-2600</item>
+        <item id="4">SAMPANN PRE-1100</item>
+        <item id="5">SAMPANN PRE-1500</item>
+        <item id="6">PRAGATI ECO-2000</item>
+        <item id="7">PRAGATI REG-2600</item>
+        <item id="8">UTKARSH REGULAR</item>
+        <item id="9">UTKARSH ULTRA PREMIUM</item>
+        <item id="10">VRIDDHI</item>
+        <item id="11">LABEL PRINTER</item>
+        <item id="12">UTKARSH PREMIUM</item>
+
+    </string-array>
+
+</resources>
