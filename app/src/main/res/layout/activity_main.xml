@@ -113,6 +113,12 @@
         </ImageView>
 
 
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/logo">
+        </ImageView>
 
 
 
@@ -120,35 +126,38 @@
 
 
 
- <!--   <Button
-        android:id="@+id/bill_fullCutter"
-        android:text="Begin Demo"
-        android:textColor="#ffffff"
-        android:layout_margin="5dp"
-        android:onClick="onHalfCutterBill"
-        android:background="@drawable/buttonbt"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
 
-    <Button
-        android:id="@+id/bill_Cutter"
-        android:text="Print All"
-        android:layout_margin="5dp"
-        android:onClick="onPrintBill"
-        android:background="@drawable/buttonbt"
-        android:textColor="#ffffff"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
 
-    <Button
-        android:id="@+id/image"
-        android:text="Image"
-        android:layout_margin="5dp"
-        android:onClick="onPrintImage"
-        android:background="@drawable/buttonbt"
-        android:textColor="#ffffff"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />-->
+
+        <!--   <Button
+               android:id="@+id/bill_fullCutter"
+               android:text="Begin Demo"
+               android:textColor="#ffffff"
+               android:layout_margin="5dp"
+               android:onClick="onHalfCutterBill"
+               android:background="@drawable/buttonbt"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content" />
+
+           <Button
+               android:id="@+id/bill_Cutter"
+               android:text="Print All"
+               android:layout_margin="5dp"
+               android:onClick="onPrintBill"
+               android:background="@drawable/buttonbt"
+               android:textColor="#ffffff"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content" />
+
+           <Button
+               android:id="@+id/image"
+               android:text="Image"
+               android:layout_margin="5dp"
+               android:onClick="onPrintImage"
+               android:background="@drawable/buttonbt"
+               android:textColor="#ffffff"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content" />-->
 
     </RelativeLayout>
 
