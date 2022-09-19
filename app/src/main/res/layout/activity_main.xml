@@ -105,6 +105,23 @@
         </Button>
 
 
+
+        <Button
+            android:id="@+id/bill2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bill"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/buttonbt"
+            android:onClick="onPrintBill"
+            android:text="Print Sticker again"
+            android:textColor="#ffffff">
+
+        </Button>
+
+
         <ImageView
             android:layout_width="150dp"
             android:layout_height="150dp"
