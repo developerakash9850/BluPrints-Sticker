@@ -19,7 +19,7 @@ public class AEMPrinter {
 	Socket socket;
 	int effectivePrintWidth = 48;
 	UsbDevice dev = null;
-	Context context;
+
 
 	public AEMPrinter(BluetoothSocket socket) 
 	{
