@@ -18,17 +18,12 @@ public class AEMPrinter {
 	BluetoothSocket bluetoothSocket;
 	Socket socket;
 	int effectivePrintWidth = 48;
-//	UsbController usbCtrl = null;
 	UsbDevice dev = null;
 	Context context;
 
 	public AEMPrinter(BluetoothSocket socket) 
 	{
 		bluetoothSocket = socket;
-	}
-	public AEMPrinter(Socket socket)
-	{
-		socket = socket;
 	}
 
 	// New Change
